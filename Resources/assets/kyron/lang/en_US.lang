@@ -1,0 +1,17 @@
+# Keys
+
+# Creative Tabs
+itemGroup.kyron=The Kyron Mod
+
+# Items
+#item.kyron:IngotKyron.name=Kyron Ingot
+
+
+# Blocks
+tile.kyron:BlockKyron.name=Kyron Block
+
+# Ores
+tile.kyron:BlockKyronOre.name=Kyron Ore
+
+# Ingots
+item.kyron:IngotKyron.name=Kyron Ingot

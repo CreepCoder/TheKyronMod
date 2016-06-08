@@ -1,0 +1,21 @@
+[
+{
+  "modid": "The Kyron Mod",
+  "name": "The Kyron Mod",
+  "description": "My first mod, remastered.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "CreepCoder"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
