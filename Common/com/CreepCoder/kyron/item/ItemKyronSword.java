@@ -1,39 +1,28 @@
 package com.CreepCoder.kyron.item;
 
+import java.util.Set;
+
 import com.CreepCoder.kyron.creativetab.CreativeTabKyron;
 import com.CreepCoder.kyron.lib.reference.ItemNames;
 import com.CreepCoder.kyron.lib.reference.Reference;
-import com.CreepCoder.kyron.lib.reference.Textures;
-import com.CreepCoder.kyron.lib.utility.ChatMessageHelper;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
+import net.minecraft.item.ItemTool;
 
-public class ItemKyronLeggings extends ItemArmor
+public class ItemKyronSword extends ItemTool
 {
-    public ItemKyronLeggings() 
-    {
-    	/** Stores the armor type: 0 is helmet, 1 is plate, 2 is legs and 3 is boots */
-        super(Material.KyronArmor, 0, 2);
-        this.setUnlocalizedName(ItemNames.ITEMNAME_KYRONLEGGINGS);
-        this.setMaxStackSize(1);
-        this.setCreativeTab(CreativeTabKyron.KYRON_TAB);
-    }
-    
-    @Override
-    public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
-    {
-        return Textures.ENTITY_KYRON_LAYER2;
-    }
-    
-    //ItemRC Copy, omdat ik niet extends ItemRC en ItemArmor tegelijk kan doen. Ik heb geprobeerd om ItemArmorRC aan te maken, zonder succes.
+	public ItemKyronSword()
+	{
+		super(8, Material.KyronTools, null);
+		this.setUnlocalizedName(ItemNames.ITEMNAME_KYRONSWORD);
+		this.setMaxStackSize(1);
+		this.setCreativeTab(CreativeTabKyron.KYRON_TAB);
+	}
+
+	//ItemTKM Copy, omdat ik niet extends ItemRC en ItemArmor tegelijk kan doen. Ik heb geprobeerd om ItemArmorRC aan te maken, zonder succes.
     @Override
     public String getUnlocalizedName()
     {

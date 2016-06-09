@@ -13,7 +13,6 @@ public class SmeltingHandler
 {
 	public static void init()
 	{
-		//GameRegistry.addSmelting(ModBlocks.AluminiumOre, 	new ItemStack(ModItems.AluminiumIngot), 0.1f);
-
+		GameRegistry.addSmelting(ModBlocks.BlockKyronOre, 	new ItemStack(ModItems.IngotKyron), 0.5f);
 	}
 }

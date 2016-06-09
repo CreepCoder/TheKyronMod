@@ -17,5 +17,4 @@ public class BlockKyron extends BlockTKM
         this.setStepSound(soundTypeMetal);
         this.setHarvestLevel("pickaxe", 2);
     }
-
 }

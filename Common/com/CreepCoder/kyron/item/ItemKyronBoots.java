@@ -18,30 +18,19 @@ public class ItemKyronBoots extends ItemArmor
     public ItemKyronBoots()
     {
     	/** Stores the armor type: 0 is helmet, 1 is plate, 2 is legs and 3 is boots */
-        super(Material.HellfireArmor, 0, 3);
-        this.setUnlocalizedName(null);
+        super(Material.KyronArmor, 0, 3);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_KYRONBOOTS);
         this.setMaxStackSize(1);
         this.setCreativeTab(CreativeTabKyron.KYRON_TAB);
     }
-
-    /*
-    public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)
-    {
-        if (World.isRemote)
-        {
-            ChatMessageHelper.sendMessage("Why cant i put this on ??", entityPlayer);
-        }
-        return ItemStack;
-    }
-    */
     
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
     {
-        return Textures.ENTITY_HELLFIRE_LAYER1;
+        return Textures.ENTITY_KYRON_LAYER1;
     }
     
-    //ItemRC Copy, omdat ik niet extends ItemRC en ItemArmor tegelijk kan doen. Ik heb geprobeerd om ItemArmorRC aan te maken, zonder succes.
+    //ItemTKM Copy, omdat ik niet extends ItemRC en ItemArmor tegelijk kan doen. Ik heb geprobeerd om ItemArmorRC aan te maken, zonder succes.
     @Override
     public String getUnlocalizedName()
     {

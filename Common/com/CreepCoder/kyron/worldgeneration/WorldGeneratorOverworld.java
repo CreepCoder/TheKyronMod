@@ -27,21 +27,17 @@ public class WorldGeneratorOverworld implements IWorldGenerator
     }
      
     private void generateEnd(World world, Random random, int x, int z)
-    {
-        
-    }
+    {}
      
     private void generateSurface(World world, Random random, int x, int z)
     {
-        //this.addOreSpawn(ModBlocks.CopperOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.BlockKyronOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
 
         //8th = variable of the size of the vein. 9th = number of veins to spawn per chunk. 10+11 = lowest height, highest height
     }
      
     private void generateNether(World world, Random random, int x, int z)
-    {
-       
-    }
+    {}
    
     public void addOreSpawn(Block block, World world, Random random, int blockXPos, int blockZPos, int maxX, int maxZ, int maxVeinSize, int chancesToSpawn, int minY, int maxY)
     {

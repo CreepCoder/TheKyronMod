@@ -14,10 +14,9 @@ public class BlocksCraftingHandler
 {
 	public static void init()
 	{
-		/*
-		GameRegistry.addRecipe(new ItemStack(ModBlocks.HellfireBlock), 			"xxx", "xxx", "xxx",
-				'x', ModItems.HellfireIngot);
-		*/
+		//KyronBlock
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockKyron), 			"xxx", "xxx", "xxx",
+				'x', ModItems.IngotKyron);
 	}
 
 }

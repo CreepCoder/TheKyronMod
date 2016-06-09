@@ -12,13 +12,13 @@ public class CraftingHandler
 {
 	public static void init()
 	{
+		/*
 		GameRegistry.addRecipe(new ItemStack(Blocks.bedrock),
 			    " x ",
 			    "y y",
 			    " x ",
 			    'x', Blocks.dirt, 'y', Blocks.cobblestone);
 		
-		/*
 		GameRegistry.addRecipe(
     	new ItemStack(Block.stone),
     	"xyx",

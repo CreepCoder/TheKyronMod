@@ -25,10 +25,9 @@ public class ModBlocks
     	BlockKyronOre = new BlockKyronOre();       
         
         //Register the blocks
-        
+      	GameRegistry.registerBlock(BlockKyron, "BlockKyron");
         //Ores
         //RegisterHelper.registerBlock(BlockKyron);
-    	GameRegistry.registerBlock(BlockKyron, "BlockKyron");
     	GameRegistry.registerBlock(BlockKyronOre, "BlockKyronOre");
     }
 }

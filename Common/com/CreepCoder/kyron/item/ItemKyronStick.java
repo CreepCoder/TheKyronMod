@@ -7,21 +7,20 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ItemLEDBlue extends ItemTKM 
+public class ItemKyronStick extends ItemTKM 
 {
-    public ItemLEDBlue() 
+    public ItemKyronStick() 
     {
         super();
-        this.setUnlocalizedName(null);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_KYRONSTICK);
     }
     
     public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)
     {
         if (World.isRemote)
         {
-            ChatMessageHelper.sendMessage("A blue colored LED.", entityPlayer);
+            ChatMessageHelper.sendMessage("A stick made from Kyron, maybe this is strong enough to create Kyron tools with.", entityPlayer);
         }
         return ItemStack;
-
     }
 }

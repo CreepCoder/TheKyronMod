@@ -9,18 +9,15 @@ import cpw.mods.fml.common.IWorldGenerator;
 public class ModWorldGeneration 
 {
 	//Declare the generator
-	//public static IWorldGenerator Hellfire;
-	public static IWorldGenerator Ores;
+	public static IWorldGenerator Kyron;
 	
 	public static void init()
 	{
 		//Add the generator
-		//Hellfire = new WorldGeneratorHell();
-		Ores = new WorldGeneratorOverworld();
+		Kyron = new WorldGeneratorOverworld();
 	
 		//Register the generator
-		//RegisterHelper.registerIWorldGenerator(Hellfire);
-		RegisterHelper.registerIWorldGenerator(Ores);
+		RegisterHelper.registerIWorldGenerator(Kyron);
 	}
 	
 }

@@ -4,14 +4,25 @@
 itemGroup.kyron=The Kyron Mod
 
 # Items
-#item.kyron:IngotKyron.name=Kyron Ingot
+#item.kyron:KyronStick.name=Kyron Stick
 
+# Ingots
+item.kyron:IngotKyron.name=Kyron Ingot
+
+# Armor and Tools
+item.kyron:KyronHelmet.name=Kyron Helmet
+item.kyron:KyronChestplate.name=Kyron Chestplate
+item.kyron:KyronLeggings.name=Kyron Leggings
+item.kyron:KyronBoots.name=Kyron Boots
+
+item.kyron:KyronSword.name=Kyron Sword
+item.kyron:KyronPickaxe.name=Kyron Pickaxe
+item.kyron:KyronAxe.name=Kyron Axe
+item.kyron:KyronShovel.name=Kyron Shovel
+item.kyron:KyronHoe.name=Kyron Hoe
 
 # Blocks
 tile.kyron:BlockKyron.name=Kyron Block
 
 # Ores
 tile.kyron:BlockKyronOre.name=Kyron Ore
-
-# Ingots
-item.kyron:IngotKyron.name=Kyron Ingot
