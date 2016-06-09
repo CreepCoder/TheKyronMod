@@ -14,9 +14,14 @@ public class BlocksCraftingHandler
 {
 	public static void init()
 	{
+		//KyronBlock -> Ingots
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.IngotKyron, 9), new Object[]
+			{
+				ModBlocks.BlockKyron
+			});
+		
 		//KyronBlock
-		GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockKyron), 			"xxx", "xxx", "xxx",
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockKyron), "xxx", "xxx", "xxx",
 				'x', ModItems.IngotKyron);
 	}
-
 }

@@ -5,6 +5,7 @@ import com.CreepCoder.kyron.item.ItemKyronBoots;
 import com.CreepCoder.kyron.item.ItemKyronChestplate;
 import com.CreepCoder.kyron.item.ItemKyronHelmet;
 import com.CreepCoder.kyron.item.ItemKyronHoe;
+import com.CreepCoder.kyron.item.ItemKyronLeggings;
 import com.CreepCoder.kyron.item.ItemKyronPickaxe;
 import com.CreepCoder.kyron.item.ItemKyronShovel;
 import com.CreepCoder.kyron.item.ItemKyronStick;
@@ -41,7 +42,7 @@ public class ModItems
         
     	KyronHelmet = new ItemKyronHelmet();
     	KyronChestplate = new ItemKyronChestplate();
-    	KyronLeggings = new ItemKyronChestplate();
+    	KyronLeggings = new ItemKyronLeggings();
     	KyronBoots = new ItemKyronBoots();
         
     	KyronSword = new ItemKyronSword();

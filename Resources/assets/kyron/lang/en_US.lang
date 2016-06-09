@@ -4,7 +4,7 @@
 itemGroup.kyron=The Kyron Mod
 
 # Items
-#item.kyron:KyronStick.name=Kyron Stick
+item.kyron:KyronStick.name=Kyron Stick
 
 # Ingots
 item.kyron:IngotKyron.name=Kyron Ingot
