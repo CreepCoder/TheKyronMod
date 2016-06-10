@@ -23,6 +23,8 @@ item.kyron:KyronHoe.name=Kyron Hoe
 
 # Blocks
 tile.kyron:BlockKyron.name=Kyron Block
+tile.kyron:BlockKyronDecorative.name=Kyron Decorative Block
+tile.kyron:BlockKyronBricks.name=Kyron Bricks
 
 # Ores
 tile.kyron:BlockKyronOre.name=Kyron Ore
