@@ -31,7 +31,7 @@ public class WorldGeneratorOverworld implements IWorldGenerator
      
     private void generateSurface(World world, Random random, int x, int z)
     {
-        this.addOreSpawn(ModBlocks.BlockKyronOre, world, random, x, z, 16, 16, 2 + random.nextInt(2), 2+random.nextInt(4), 16, 48);
+        this.addOreSpawn(ModBlocks.BlockKyronOre, world, random, x, z, 16, 16, 2 + random.nextInt(4), 6+random.nextInt(4), 16, 48);
 
         //8th = variable of the size of the vein. 9th = number of veins to spawn per chunk. 10+11 = lowest height, highest height
     }

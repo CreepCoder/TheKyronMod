@@ -1,6 +1,7 @@
 package com.CreepCoder.kyron.creativetab;
 
 import com.CreepCoder.kyron.init.ModBlocks;
+import com.CreepCoder.kyron.init.ModItems;
 import com.CreepCoder.kyron.lib.reference.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -15,9 +16,8 @@ public class CreativeTabKyron
         @Override
         public Item getTabIconItem()
         {
-            return Items.apple;
+            return ModItems.IngotKyron;
         	//return Item.getItemFromBlock(Blocks.anvil);
         }
     };
-
 }
